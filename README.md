@@ -1,12 +1,57 @@
-# React + Vite
+# PR-9 API Hunter - VANSH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+**PR-9 API Hunter** is a project designed to fetch and display data from APIs efficiently. It provides a user-friendly interface to interact with APIs and present data in an organized manner.
 
-Currently, two official plugins are available:
+## 📂 File Structure
+### Root Directory
+- **public/** - Public assets (favicons, static files)
+- **src/**
+  - **components/** - Reusable React components
+  - **pages/** - Application pages
+  - **services/** - API calls and services
+  - **utils/** - Utility functions
+  - **App.js** - Main app component
+  - **index.js** - Entry point
+- **.gitignore** - Git ignore file
+- **package.json** - Dependencies and scripts
+- **README.md** - Project documentation (this file)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Fetch and display API data
+- Search and filter options
+- Pagination for better user experience
+- Responsive design with Bootstrap
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **Frontend:** React, Bootstrap
+- **Backend:** API Integration
+- **State Management:** Redux (if used)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+# Clone the repository
+git clone https://github.com/vanshsukhiyaji07/PR-9-API-HUNTER-VANSH.git
+
+# Navigate to the project folder
+cd PR-9-API-HUNTER-VANSH
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+## 📝 Usage
+1. Open the app in your browser at `http://localhost:3000/`
+2. Interact with API data through the UI
+3. Use search and pagination features to refine results
+
+## 🤝 Contributing
+Feel free to contribute by forking the repo and creating pull requests.
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+**Developed by Vansh Sukhiyaji** 🚀
